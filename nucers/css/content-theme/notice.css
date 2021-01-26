@@ -1,4 +1,4 @@
-.vditor {
+.vditor-reset {
     --border-color: #d1d5da;
     --second-color: rgba(88, 96, 105, 0.36);
     --panel-background-color: #fff;
@@ -989,6 +989,9 @@
 .vditor-reset .language-math mjx-container:focus {
     outline: none;
     cursor: context-menu;
+}
+.vditor-reset .language-math .katex .base {
+    margin: 3px 0;
 }
 .vditor-reset .language-echarts,
 .vditor-reset .language-mindmap {
