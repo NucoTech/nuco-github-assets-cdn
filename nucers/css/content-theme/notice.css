@@ -127,7 +127,7 @@
     min-height: 36vh;
 }
 .vditor-reset table {
-    color: black;
+    color: white;
     border-collapse: collapse;
     empty-cells: show;
     margin-bottom: 16px;
@@ -135,7 +135,7 @@
     border-spacing: 0;
 }
 .vditor-reset table tr {
-    background-color: #fafbfc;
+    background-color: transparent;
     border-top: 1px solid #c6cbd1;
 }
 .vditor-reset table td,
@@ -148,7 +148,7 @@
     font-weight: 600;
 }
 .vditor-reset table tbody tr:nth-child(2n) {
-    background-color: #fff;
+    background-color: transparent;
 }
 .vditor-reset code:not(.hljs):not(.highlight-chroma) {
     padding: 0.2em 0.4em;
@@ -161,6 +161,8 @@
     word-break: break-word;
     background-size: 20px 20px;
     white-space: pre-wrap;
+    background-color: #8b8e86;
+    color: #24292e;
 }
 .vditor-reset pre {
     margin: 1em 0;
