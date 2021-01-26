@@ -37,13 +37,16 @@
 }
 .vditor-reset audio {
     max-width: 100%;
-}
-.vditor-reset audio:focus {
-    outline: none;
+    width: 100%;
 }
 .vditor-reset video {
     max-height: 90vh;
     max-width: 100%;
+    width: 100%;
+}
+.vditor-reset audio:focus,
+.vditor-reset video:focus {
+    outline: none;
 }
 .vditor-reset img {
     max-width: 100%;
@@ -166,6 +169,7 @@
 }
 .vditor-reset pre {
     margin: 1em 0;
+    overflow: hidden;
 }
 .vditor-reset pre > code {
     margin: 0;
@@ -198,6 +202,9 @@
 .vditor-reset .language-math mjx-container:focus {
     outline: none;
     cursor: context-menu;
+}
+.vditor-reset .language-math .katex .base {
+    margin: 3px 0;
 }
 .vditor-reset .language-echarts,
 .vditor-reset .language-mindmap {
