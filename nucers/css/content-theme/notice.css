@@ -4,6 +4,7 @@
 
 .vditor-reset h1,
 .vditor-reset h2 {
+    color: white;
     padding-bottom: 0.3em;
     border-bottom: 1px solid #eaecef;
 }
@@ -11,7 +12,7 @@
     background-color: #eaecef;
 }
 .vditor-reset blockquote {
-    color: #6a737d;
+    color: #8b8e86;
     border-left: 0.25em solid #eaecef;
 }
 .vditor-reset iframe {
