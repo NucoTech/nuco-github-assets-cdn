@@ -562,7 +562,7 @@
 .vditor-nucers-preview h4,
 .vditor-nucers-preview h5,
 .vditor-nucers-preview h6 {
-    color: white;
+    color: var(--blockquote-color);
     margin-top: 24px;
     margin-bottom: 16px;
     font-weight: 600;
