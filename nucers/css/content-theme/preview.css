@@ -611,6 +611,9 @@
     border-left: 0.25em solid var(--heading-border-color);
     background-color: #ededef;
     margin: 0 0 16px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 1px var(--blockquote-color);
 }
 .vditor-nucers-preview blockquote > :first-child {
     margin-top: 0;
@@ -753,6 +756,7 @@
     background-color: #ededef;
     color: var(--blockquote-color);
     padding: 0 0 20px;
+    border-radius: 5px;
 }
 .vditor-nucers-preview .footnotes-defs-hr {
     width: 100%;
