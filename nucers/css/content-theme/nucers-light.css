@@ -93,3 +93,6 @@
     height: 3px;
     background-color: var(--preview-divider-color);
 }
+.vditor-reset mark {
+    background-color: #ff0;
+}
