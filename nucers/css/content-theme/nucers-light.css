@@ -46,9 +46,13 @@
     margin: 0 5px;
     background-color: var(--preview-blockquote-color);
 }
+.vditor-reset .language-math .katex .base {
+    margin: 5px 0;
+}
 .vditor-reset kbd {
-    color: #24292e;
-    background-color: #fafbfc;
+    color: var(--preview-main-color);
+    padding: 7px;
+    background-color: var(--preview-blockquote-bg);
     border: 1px solid #d1d5da;
     box-shadow: inset 0 -1px 0 #d1d5da;
 }
@@ -78,4 +82,14 @@
 }
 .vditor-linkcard__image {
     background-color: rgba(88, 96, 105, 0.36);
+}
+.vditor-reset .footnotes-defs-div {
+    background-color: var(--preview-blockquote-bg);
+    color: var(--preview-main-color);
+    padding: 0 0 20px;
+}
+.vditor-reset .footnotes-defs-hr {
+    width: 100%;
+    height: 3px;
+    background-color: var(--preview-divider-color);
 }
