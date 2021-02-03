@@ -1,32 +1,50 @@
-/* Nucers的light主题样式 */
+/* Nucers的主题样式 */
+.vditor-reset {
+    /* 设置颜色变量 */
+    --preview-main-color: #484848;
+    --preview-divider-color: #d4d4d4;
+    --preview-blockquote-color: #484848;
+    --preview-blockquote-bg: #e1e3e6;
+}
+
+.vditor-reset {
+    color: var(--preview-main-color);
+}
+
 .vditor-reset h1,
 .vditor-reset h2 {
     padding-bottom: 0.3em;
-    border-bottom: 1px solid #eaecef;
+    border-bottom: 1px solid var(--preview-divider-color);
 }
 .vditor-reset hr {
-    background-color: #eaecef;
+    background-color: var(--preview-divider-color);
 }
 .vditor-reset blockquote {
-    color: #6a737d;
-    border-left: 0.25em solid #eaecef;
+    color: var(--preview-main-color);
+    padding: 10px;
+    border-left: 0.25em solid var(--preview-blockquote-color);
+    background-color: var(--preview-blockquote-bg);
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 .vditor-reset iframe {
     border: 1px solid #d1d5da;
 }
 .vditor-reset table tr {
     border-top: 1px solid #c6cbd1;
-    background-color: #fafbfc;
+    background-color: white;
 }
 .vditor-reset table td,
 .vditor-reset table th {
     border: 1px solid #dfe2e5;
 }
-.vditor-reset table tbody tr:nth-child(2n) {
-    background-color: #fff;
+.vditor-reset table tbody tr:nth-child(2n+1) {
+    background-color: #ededef;
 }
 .vditor-reset code:not(.hljs):not(.highlight-chroma) {
-    background-color: rgba(27, 31, 35, 0.05);
+    color: white;
+    margin: 0 5px;
+    background-color: var(--preview-blockquote-color);
 }
 .vditor-reset kbd {
     color: #24292e;
