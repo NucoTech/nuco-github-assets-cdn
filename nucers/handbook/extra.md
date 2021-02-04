@@ -61,12 +61,12 @@
 ### 行内数学公式
 
 ```markdown
-质能方程 $E = mc^2$
+薛定谔方程 $\hat H \Psi=i \hbar \frac{\partial}{\partial t}\Psi$
 ```
 
 输出
 
-质能方程 $E = mc^2$
+薛定谔方程 $\hat H \Psi=i \hbar \frac{\partial}{\partial t}\Psi$
 
 ### 数学公式块
 

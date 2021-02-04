@@ -625,6 +625,7 @@
     border: 1px solid var(--border-color);
     max-width: 100%;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 .vditor-reset iframe.iframe__video {
     min-width: 80%;
@@ -717,6 +718,11 @@
 }
 .vditor-reset .language-graphviz parsererror {
     overflow: auto;
+}
+.vditor-reset .language-abc,
+.vditor-reset .language-echarts {
+    background-color: white;
+    border-radius: 5px;
 }
 .vditor-reset kbd {
     display: inline-block;
